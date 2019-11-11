@@ -70,11 +70,46 @@ document.write("<h2>Hello world from javascript.</h2>");
 //     j += 1;
 // }while(j <= 10);
 
-function add2Item(a, b){
-    return a + b;
-}
+// function add2Item(a, b){
+//     return a + b;
+// }
 
 
-document.write(add2Item('Md Mohaymenul Islam', ' Noyon'))
+// document.write(add2Item('Md Mohaymenul Islam', ' Noyon'))
 
+// let cars = ['BMW', 'Volvo', 'Audi']
+// for(let i=0; i<cars.length; i++)
+//     document.write("<h3>" + cars[i] + "</h3>");
+
+// let car = {
+//     brand : "Tesla",
+//     model: "Model 3",
+//     price: 35000,
+//     autoPilot : function()
+//     {
+//         return '<h2>This car has Auto pilot.</h2>'
+//     }
+// }
+// car.fuelType = 'Electric';
+// document.write(car.autoPilot());
+// delete car.price;
+// document.write(car.fuelType);
+
+// function Cars(brand, model, price){
+//     this.brand = brand;
+//     this.model = model;
+//     this.price = price;
+//     this.autoPilot = function(){
+//         return '<h2>' + this.brand + ' has Auto pilot feature.</h2>';
+//     }
+// }
+
+// let c1 = new Cars('Tesla', 'Model 3', 34000);
+// let c2 = new Cars('BMW', 'model 44', 888888);
+
+// document.write(c1.autoPilot());
+// document.write(c2.autoPilot());
+
+// let str1 = 'new String()';
+// document.write(typeof(str1));
 
