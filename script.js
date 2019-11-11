@@ -54,19 +54,27 @@ document.write("<h2>Hello world from javascript.</h2>");
 // }
 
 
-for(let i=1; i<=10;i++){
-    document.write("<h2> 5 x " + i + " = ", i*5 + "</h2>");
+// for(let i=1; i<=10;i++){
+//     document.write("<h2> 5 x " + i + " = ", i*5 + "</h2>");
+// }
+
+// let i = 1;
+// while(i <= 10){
+//     document.write("<h2> 7 x " + i + " = ", i*7 + "</h2>");
+//     i += 1;
+// }
+
+// let j = 1;
+// do{
+//     document.write("<h2> 39 x " + j + " = ", j*39 + "</h2>");
+//     j += 1;
+// }while(j <= 10);
+
+function add2Item(a, b){
+    return a + b;
 }
 
-let i = 1;
-while(i <= 10){
-    document.write("<h2> 7 x " + i + " = ", i*7 + "</h2>");
-    i += 1;
-}
 
-let j = 1;
-do{
-    document.write("<h2> 39 x " + j + " = ", j*39 + "</h2>");
-    j += 1;
-}while(j <= 10);
+document.write(add2Item('Md Mohaymenul Islam', ' Noyon'))
+
 
