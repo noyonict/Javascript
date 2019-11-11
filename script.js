@@ -10,7 +10,46 @@ document.write("<h2>Hello world from javascript.</h2>");
 // v = 'something'; // initialization
 // document.write(v)
 
-let num1 = 7;
-let num2 = 13;
-document.write('Result is: ' + (num1+num2))
+// let num1 = -8;
+// if (num1 > 0){
+//     if (num1 % 2 == 0)
+//         result = num1 + ' is positive and even'
+//     else
+//         result = num1 + ' is positive and odd'
+// }else{
+//     if (num1 % 2 == 0)
+//         result = num1 + ' is negative and even'
+//     else
+//         result = num1 + ' is negative and odd'
+// }
+
+// document.write('Result is: ' + result)
+
+day = 33;
+switch(day){
+    case 1:
+        document.write('Sunday');
+        break;
+    case 2:
+        document.write('Monday');
+        break;
+    case 3:
+        document.write('Tuesday');
+        break;
+    case 4:
+        document.write('Wednesday');
+        break;
+    case 5:
+        document.write('Thursday');
+        break;
+    case 6:
+        document.write('Friday');
+        break;
+    case 7:
+        document.write('Saturday');
+        break;
+    default:
+        document.write('Something went wrong!');
+        break;
+}
 
